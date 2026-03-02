@@ -73,3 +73,9 @@ footer {
   height: 50px;
   border-radius: 50%;
 }
+.advertisement-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  width: 70px;
+}
