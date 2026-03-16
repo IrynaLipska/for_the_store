@@ -22,20 +22,30 @@
       </nav>
     </header>
     <section class="item-details">
-      <img src="#" alt="Item Image" width="300" height="300" />
-
-      <h2 class="item-price">Price: $XX.XX</h2>
-      <label for="quantity">Quantity:</label>
-      <input
-        type="number"
-        id="quantity"
-        placeholder="1...99"
-        name="quantity"
-        min="1"
-        max="99"
-      />
-
-      <button type="button" class="add-to-cart">Add to Cart</button>
+      <div class="item-info">
+        <img
+          src="../img/item_photo.jpg"
+          alt="Item Image"
+          width="300"
+          height="300"
+        />
+        <div class="item-purchase">
+          <h2 class="item-price">Price: $XX.XX</h2>
+          <div class="quantity-input">
+            <label for="quantity">Quantity:</label>
+            <input
+              type="number"
+              id="quantity"
+              class="quantity"
+              placeholder="1...99"
+              name="quantity"
+              min="1"
+              max="99"
+            />
+          </div>
+          <button type="button" class="add-to-cart">Add to Cart</button>
+        </div>
+      </div>
       <p class="item-description">Description of the item.</p>
     </section>
     <footer>
