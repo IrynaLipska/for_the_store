@@ -1,0 +1,56 @@
+@import url(../css/_normalize.css);
+
+main,
+header,
+footer {
+  max-width: 740px;
+  margin: 0 auto;
+  background: #e8f1fa;
+  color: rgb(26, 25, 25);
+  text-align: center;
+  background-size: 2em 2em;
+  background-color: #eff6ff;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  position: relative;
+}
+.header__logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  text-decoration: none;
+}
+.header__nav {
+  display: flex;
+  gap: 20px;
+}
+.header__nav a {
+  color: #333;
+  text-decoration: none;
+  font-size: 16px;
+}
+.nav-list {
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+  padding: 0;
+  margin: 0;
+}
+.nav-link {
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.header::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  background-color: #1100ff;
+  bottom: 0;
+  left: 0;
+}
